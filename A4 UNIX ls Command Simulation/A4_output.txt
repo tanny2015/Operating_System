@@ -1,0 +1,413 @@
+mwa109@csil-cpu1:~/a4$ make
+gcc -o UnixLs  UnixLs.c  list.o list.h 
+mwa109@csil-cpu1:~/a4$ 
+mwa109@csil-cpu1:~/a4$ 
+mwa109@csil-cpu1:~/a4$ 
+mwa109@csil-cpu1:~/a4$ 
+mwa109@csil-cpu1:~/a4$ 
+mwa109@csil-cpu1:~/a4$ 
+mwa109@csil-cpu1:~/a4$ 
+mwa109@csil-cpu1:~/a4$ 
+mwa109@csil-cpu1:~/a4$ ./UnixLs -R ~/
+
+/home/mwa109/:
+sfuhome   Android   'VirtualBox VMs'   cmpt300test   assignment_1   300a2   as3   a4   
+
+/home/mwa109/sfuhome:
+pub_html   desktop.ini   '$RECYCLE.BIN'   
+
+/home/mwa109/sfuhome/pub_html:
+
+
+'/home/mwa109/sfuhome/$RECYCLE.BIN':
+desktop.ini   
+
+/home/mwa109/cmpt300test:
+mySol.zip   helloWorld.c   makefile   demo   
+
+/home/mwa109/assignment_1:
+assignment_1.zip   list.c   list.h   makefile   testAssignment_1.c   main_test   
+
+/home/mwa109/300a2:
+temp   
+
+/home/mwa109/300a2/temp:
+
+
+/home/mwa109/as3:
+
+
+/home/mwa109/a4:
+a4test.c   a4tests.c   a4testh.c   dir01   a4.zip   list.h   list.o   makefile   UnixLs.c   UnixLs   
+
+/home/mwa109/a4/dir01:
+subtest   subsoftl   
+mwa109@csil-cpu1:~/a4$ 
+mwa109@csil-cpu1:~/a4$ 
+mwa109@csil-cpu1:~/a4$ 
+mwa109@csil-cpu1:~/a4$ 
+mwa109@csil-cpu1:~/a4$ 
+mwa109@csil-cpu1:~/a4$ 
+mwa109@csil-cpu1:~/a4$ 
+mwa109@csil-cpu1:~/a4$ 
+mwa109@csil-cpu1:~/a4$ 
+mwa109@csil-cpu1:~/a4$ 
+mwa109@csil-cpu1:~/a4$ 
+mwa109@csil-cpu1:~/a4$ 
+mwa109@csil-cpu1:~/a4$ 
+mwa109@csil-cpu1:~/a4$ ./UnixLs -l
+-rw-r--r--     2    mwa109   domain users            0    Dec  4 2020 18:27    a4test.c 
+lrwxrwxrwx     1    mwa109   domain users            8    Dec  4 2020 18:28    a4tests.c -> a4test.c 
+-rw-r--r--     2    mwa109   domain users            0    Dec  4 2020 18:27    a4testh.c 
+drwxr-xr-x     2    mwa109   domain users           47    Dec  6 2020 11:03    dir01 
+-rw-r--r--     1    mwa109   domain users        12953    Dec  7 2020 01:15    a4.zip 
+-rwxrwx---     1    mwa109   domain users         5514    Oct  5 2020 15:06    list.h 
+-rwxrwx---     1    mwa109   domain users         8704    Oct  5 2020 15:03    list.o 
+-rwxrwx---     1    mwa109   domain users          159    Dec  4 2020 00:58    makefile 
+-rw-rw-r--     1    mwa109   domain users        31214    Dec  7 2020 01:05    UnixLs.c 
+-rwxr-xr-x     1    mwa109   domain users        28616    Dec  7 2020 01:31    UnixLs 
+
+mwa109@csil-cpu1:~/a4$ 
+mwa109@csil-cpu1:~/a4$ 
+mwa109@csil-cpu1:~/a4$ 
+mwa109@csil-cpu1:~/a4$ 
+mwa109@csil-cpu1:~/a4$ 
+mwa109@csil-cpu1:~/a4$ 
+mwa109@csil-cpu1:~/a4$ 
+mwa109@csil-cpu1:~/a4$ 
+mwa109@csil-cpu1:~/a4$ 
+mwa109@csil-cpu1:~/a4$ 
+mwa109@csil-cpu1:~/a4$ 
+mwa109@csil-cpu1:~/a4$ 
+mwa109@csil-cpu1:~/a4$ 
+mwa109@csil-cpu1:~/a4$ 
+mwa109@csil-cpu1:~/a4$ ./UnixLs -Ri -l .. ~
+
+..:
+4504840714012330380   drwxr-xr-x     2    mwa109   domain users            0    Oct 17 2020 20:14    sfuhome 
+8594188718   lrwxrwxrwx     1    mwa109   domain users           39    Sep 23 2020 23:21    Android -> /usr/shared/CMPT/scratch/mwa109/Android 
+8594188722   lrwxrwxrwx     1    mwa109   domain users           42    Sep 23 2020 23:21    'VirtualBox VMs' -> /usr/shared/CMPT/scratch/mwa109/VirtualBox 
+17733735876   drwxr-xr-x     2    mwa109   domain users           87    Sep 24 2020 09:21    cmpt300test 
+2161933518   drwxr-xr-x     2    mwa109   domain users         4096    Sep 30 2020 22:35    assignment_1 
+15086792747   drwxr-xr-x     3    mwa109   domain users           25    Oct 28 2020 04:39    300a2 
+17234474452   drwxr-xr-x     2    mwa109   domain users           10    Nov 20 2020 19:42    as3 
+6466812694   drwxr-xr-x     3    mwa109   domain users         4096    Dec  7 2020 02:26    a4 
+
+
+../sfuhome:
+4504840718307297677   drwxr-xr-x     2    mwa109   domain users            0    Jun 26 2019 02:56    pub_html 
+2463382529957512158   -rwxr-xr-x     1    mwa109   domain users          282    Oct 17 2020 20:13    desktop.ini 
+2463389724027732959   drwxr-xr-x     2    mwa109   domain users            0    Oct 17 2020 20:14    '$RECYCLE.BIN' 
+
+
+../sfuhome/pub_html:
+
+
+'../sfuhome/$RECYCLE.BIN':
+2463389724027732960   -rwxr-xr-x     1    mwa109   domain users          129    Oct 17 2020 20:14    desktop.ini 
+
+
+../cmpt300test:
+17733735880   -rw-r--r--     1    mwa109   domain users          473    Sep 24 2020 09:18    mySol.zip 
+17733832585   -rw-r--r--     1    mwa109   domain users          112    Sep 23 2020 22:28    helloWorld.c 
+17736158126   -rw-r--r--     1    mwa109   domain users           66    Sep 23 2020 22:26    makefile 
+17739155686   -rwxr-xr-x     1    mwa109   domain users         8352    Sep 24 2020 09:21    demo 
+
+
+../assignment_1:
+2161933522   -rw-r--r--     1    mwa109   domain users         7936    Sep 30 2020 22:34    assignment_1.zip 
+2161940761   -rwxrwx---     1    mwa109   domain users        20681    Sep 30 2020 22:13    list.c 
+2161940762   -rwxrwx---     1    mwa109   domain users         5342    Sep 30 2020 21:48    list.h 
+2161940764   -rwxrwx---     1    mwa109   domain users           69    Sep 30 2020 20:29    makefile 
+2161940765   -rwxrwx---     1    mwa109   domain users        12427    Sep 30 2020 22:21    testAssignment_1.c 
+2166425475   -rwxr-xr-x     1    mwa109   domain users        22584    Sep 30 2020 22:35    main_test 
+
+
+../300a2:
+13459107046   drwxr-xr-x     2    mwa109   domain users           10    Oct 28 2020 04:39    temp 
+
+
+../300a2/temp:
+
+
+../as3:
+
+
+../a4:
+6467271707   -rw-r--r--     2    mwa109   domain users            0    Dec  4 2020 18:27    a4test.c 
+6467274954   lrwxrwxrwx     1    mwa109   domain users            8    Dec  4 2020 18:28    a4tests.c -> a4test.c 
+6467271707   -rw-r--r--     2    mwa109   domain users            0    Dec  4 2020 18:27    a4testh.c 
+8595550826   drwxr-xr-x     2    mwa109   domain users           47    Dec  6 2020 11:03    dir01 
+6466812696   -rw-r--r--     1    mwa109   domain users        12986    Dec  7 2020 02:26    a4.zip 
+6444088131   -rwxrwx---     1    mwa109   domain users         5514    Oct  5 2020 15:06    list.h 
+6445402989   -rwxrwx---     1    mwa109   domain users         8704    Oct  5 2020 15:03    list.o 
+6466860955   -rwxrwx---     1    mwa109   domain users          159    Dec  4 2020 00:58    makefile 
+6449515396   -rw-rw-r--     1    mwa109   domain users        31328    Dec  7 2020 02:22    UnixLs.c 
+6458230716   -rwxr-xr-x     1    mwa109   domain users        28616    Dec  7 2020 02:26    UnixLs 
+
+
+../a4/dir01:
+8634649604   -rw-r--r--     1    mwa109   domain users            0    Dec  6 2020 10:58    subtest 
+8885512915   lrwxrwxrwx     1    mwa109   domain users            7    Dec  6 2020 11:03    subsoftl -> subtest 
+
+
+/home/mwa109:
+4504840714012330380   drwxr-xr-x     2    mwa109   domain users            0    Oct 17 2020 20:14    sfuhome 
+8594188718   lrwxrwxrwx     1    mwa109   domain users           39    Sep 23 2020 23:21    Android -> /usr/shared/CMPT/scratch/mwa109/Android 
+8594188722   lrwxrwxrwx     1    mwa109   domain users           42    Sep 23 2020 23:21    'VirtualBox VMs' -> /usr/shared/CMPT/scratch/mwa109/VirtualBox 
+17733735876   drwxr-xr-x     2    mwa109   domain users           87    Sep 24 2020 09:21    cmpt300test 
+2161933518   drwxr-xr-x     2    mwa109   domain users         4096    Sep 30 2020 22:35    assignment_1 
+15086792747   drwxr-xr-x     3    mwa109   domain users           25    Oct 28 2020 04:39    300a2 
+17234474452   drwxr-xr-x     2    mwa109   domain users           10    Nov 20 2020 19:42    as3 
+6466812694   drwxr-xr-x     3    mwa109   domain users         4096    Dec  7 2020 02:26    a4 
+
+
+/home/mwa109/sfuhome:
+4504840718307297677   drwxr-xr-x     2    mwa109   domain users            0    Jun 26 2019 02:56    pub_html 
+2463382529957512158   -rwxr-xr-x     1    mwa109   domain users          282    Oct 17 2020 20:13    desktop.ini 
+2463389724027732959   drwxr-xr-x     2    mwa109   domain users            0    Oct 17 2020 20:14    '$RECYCLE.BIN' 
+
+
+/home/mwa109/sfuhome/pub_html:
+
+
+'/home/mwa109/sfuhome/$RECYCLE.BIN':
+2463389724027732960   -rwxr-xr-x     1    mwa109   domain users          129    Oct 17 2020 20:14    desktop.ini 
+
+
+/home/mwa109/cmpt300test:
+17733735880   -rw-r--r--     1    mwa109   domain users          473    Sep 24 2020 09:18    mySol.zip 
+17733832585   -rw-r--r--     1    mwa109   domain users          112    Sep 23 2020 22:28    helloWorld.c 
+17736158126   -rw-r--r--     1    mwa109   domain users           66    Sep 23 2020 22:26    makefile 
+17739155686   -rwxr-xr-x     1    mwa109   domain users         8352    Sep 24 2020 09:21    demo 
+
+
+/home/mwa109/assignment_1:
+2161933522   -rw-r--r--     1    mwa109   domain users         7936    Sep 30 2020 22:34    assignment_1.zip 
+2161940761   -rwxrwx---     1    mwa109   domain users        20681    Sep 30 2020 22:13    list.c 
+2161940762   -rwxrwx---     1    mwa109   domain users         5342    Sep 30 2020 21:48    list.h 
+2161940764   -rwxrwx---     1    mwa109   domain users           69    Sep 30 2020 20:29    makefile 
+2161940765   -rwxrwx---     1    mwa109   domain users        12427    Sep 30 2020 22:21    testAssignment_1.c 
+2166425475   -rwxr-xr-x     1    mwa109   domain users        22584    Sep 30 2020 22:35    main_test 
+
+
+/home/mwa109/300a2:
+13459107046   drwxr-xr-x     2    mwa109   domain users           10    Oct 28 2020 04:39    temp 
+
+
+/home/mwa109/300a2/temp:
+
+
+/home/mwa109/as3:
+
+
+/home/mwa109/a4:
+6467271707   -rw-r--r--     2    mwa109   domain users            0    Dec  4 2020 18:27    a4test.c 
+6467274954   lrwxrwxrwx     1    mwa109   domain users            8    Dec  4 2020 18:28    a4tests.c -> a4test.c 
+6467271707   -rw-r--r--     2    mwa109   domain users            0    Dec  4 2020 18:27    a4testh.c 
+8595550826   drwxr-xr-x     2    mwa109   domain users           47    Dec  6 2020 11:03    dir01 
+6466812696   -rw-r--r--     1    mwa109   domain users        12986    Dec  7 2020 02:26    a4.zip 
+6444088131   -rwxrwx---     1    mwa109   domain users         5514    Oct  5 2020 15:06    list.h 
+6445402989   -rwxrwx---     1    mwa109   domain users         8704    Oct  5 2020 15:03    list.o 
+6466860955   -rwxrwx---     1    mwa109   domain users          159    Dec  4 2020 00:58    makefile 
+6449515396   -rw-rw-r--     1    mwa109   domain users        31328    Dec  7 2020 02:22    UnixLs.c 
+6458230716   -rwxr-xr-x     1    mwa109   domain users        28616    Dec  7 2020 02:26    UnixLs 
+
+
+/home/mwa109/a4/dir01:
+8634649604   -rw-r--r--     1    mwa109   domain users            0    Dec  6 2020 10:58    subtest 
+8885512915   lrwxrwxrwx     1    mwa109   domain users            7    Dec  6 2020 11:03    subsoftl -> subtest 
+
+mwa109@csil-cpu1:~/a4$ 
+mwa109@csil-cpu1:~/a4$ 
+mwa109@csil-cpu1:~/a4$ 
+mwa109@csil-cpu1:~/a4$ 
+mwa109@csil-cpu1:~/a4$ 
+mwa109@csil-cpu1:~/a4$ 
+mwa109@csil-cpu1:~/a4$ 
+mwa109@csil-cpu1:~/a4$ 
+mwa109@csil-cpu1:~/a4$ 
+mwa109@csil-cpu1:~/a4$ 
+mwa109@csil-cpu1:~/a4$ 
+mwa109@csil-cpu1:~/a4$ 
+mwa109@csil-cpu1:~/a4$ ./UnixLs -liR . .. ~
+
+.:
+6467271707   -rw-r--r--     2    mwa109   domain users            0    Dec  4 2020 18:27    a4test.c 
+6467274954   lrwxrwxrwx     1    mwa109   domain users            8    Dec  4 2020 18:28    a4tests.c -> a4test.c 
+6467271707   -rw-r--r--     2    mwa109   domain users            0    Dec  4 2020 18:27    a4testh.c 
+8595550826   drwxr-xr-x     2    mwa109   domain users           47    Dec  6 2020 11:03    dir01 
+6466812696   -rw-r--r--     1    mwa109   domain users        12986    Dec  7 2020 02:26    a4.zip 
+6444088131   -rwxrwx---     1    mwa109   domain users         5514    Oct  5 2020 15:06    list.h 
+6445402989   -rwxrwx---     1    mwa109   domain users         8704    Oct  5 2020 15:03    list.o 
+6466860955   -rwxrwx---     1    mwa109   domain users          159    Dec  4 2020 00:58    makefile 
+6449515396   -rw-rw-r--     1    mwa109   domain users        31328    Dec  7 2020 02:22    UnixLs.c 
+6458230716   -rwxr-xr-x     1    mwa109   domain users        28616    Dec  7 2020 02:26    UnixLs 
+
+
+./dir01:
+8634649604   -rw-r--r--     1    mwa109   domain users            0    Dec  6 2020 10:58    subtest 
+8885512915   lrwxrwxrwx     1    mwa109   domain users            7    Dec  6 2020 11:03    subsoftl -> subtest 
+
+
+..:
+4504840714012330380   drwxr-xr-x     2    mwa109   domain users            0    Oct 17 2020 20:14    sfuhome 
+8594188718   lrwxrwxrwx     1    mwa109   domain users           39    Sep 23 2020 23:21    Android -> /usr/shared/CMPT/scratch/mwa109/Android 
+8594188722   lrwxrwxrwx     1    mwa109   domain users           42    Sep 23 2020 23:21    'VirtualBox VMs' -> /usr/shared/CMPT/scratch/mwa109/VirtualBox 
+17733735876   drwxr-xr-x     2    mwa109   domain users           87    Sep 24 2020 09:21    cmpt300test 
+2161933518   drwxr-xr-x     2    mwa109   domain users         4096    Sep 30 2020 22:35    assignment_1 
+15086792747   drwxr-xr-x     3    mwa109   domain users           25    Oct 28 2020 04:39    300a2 
+17234474452   drwxr-xr-x     2    mwa109   domain users           10    Nov 20 2020 19:42    as3 
+6466812694   drwxr-xr-x     3    mwa109   domain users         4096    Dec  7 2020 02:26    a4 
+
+
+../sfuhome:
+4504840718307297677   drwxr-xr-x     2    mwa109   domain users            0    Jun 26 2019 02:56    pub_html 
+2463382529957512158   -rwxr-xr-x     1    mwa109   domain users          282    Oct 17 2020 20:13    desktop.ini 
+2463389724027732959   drwxr-xr-x     2    mwa109   domain users            0    Oct 17 2020 20:14    '$RECYCLE.BIN' 
+
+
+../sfuhome/pub_html:
+
+
+'../sfuhome/$RECYCLE.BIN':
+2463389724027732960   -rwxr-xr-x     1    mwa109   domain users          129    Oct 17 2020 20:14    desktop.ini 
+
+
+../cmpt300test:
+17733735880   -rw-r--r--     1    mwa109   domain users          473    Sep 24 2020 09:18    mySol.zip 
+17733832585   -rw-r--r--     1    mwa109   domain users          112    Sep 23 2020 22:28    helloWorld.c 
+17736158126   -rw-r--r--     1    mwa109   domain users           66    Sep 23 2020 22:26    makefile 
+17739155686   -rwxr-xr-x     1    mwa109   domain users         8352    Sep 24 2020 09:21    demo 
+
+
+../assignment_1:
+2161933522   -rw-r--r--     1    mwa109   domain users         7936    Sep 30 2020 22:34    assignment_1.zip 
+2161940761   -rwxrwx---     1    mwa109   domain users        20681    Sep 30 2020 22:13    list.c 
+2161940762   -rwxrwx---     1    mwa109   domain users         5342    Sep 30 2020 21:48    list.h 
+2161940764   -rwxrwx---     1    mwa109   domain users           69    Sep 30 2020 20:29    makefile 
+2161940765   -rwxrwx---     1    mwa109   domain users        12427    Sep 30 2020 22:21    testAssignment_1.c 
+2166425475   -rwxr-xr-x     1    mwa109   domain users        22584    Sep 30 2020 22:35    main_test 
+
+
+../300a2:
+13459107046   drwxr-xr-x     2    mwa109   domain users           10    Oct 28 2020 04:39    temp 
+
+
+../300a2/temp:
+
+
+../as3:
+
+
+../a4:
+6467271707   -rw-r--r--     2    mwa109   domain users            0    Dec  4 2020 18:27    a4test.c 
+6467274954   lrwxrwxrwx     1    mwa109   domain users            8    Dec  4 2020 18:28    a4tests.c -> a4test.c 
+6467271707   -rw-r--r--     2    mwa109   domain users            0    Dec  4 2020 18:27    a4testh.c 
+8595550826   drwxr-xr-x     2    mwa109   domain users           47    Dec  6 2020 11:03    dir01 
+6466812696   -rw-r--r--     1    mwa109   domain users        12986    Dec  7 2020 02:26    a4.zip 
+6444088131   -rwxrwx---     1    mwa109   domain users         5514    Oct  5 2020 15:06    list.h 
+6445402989   -rwxrwx---     1    mwa109   domain users         8704    Oct  5 2020 15:03    list.o 
+6466860955   -rwxrwx---     1    mwa109   domain users          159    Dec  4 2020 00:58    makefile 
+6449515396   -rw-rw-r--     1    mwa109   domain users        31328    Dec  7 2020 02:22    UnixLs.c 
+6458230716   -rwxr-xr-x     1    mwa109   domain users        28616    Dec  7 2020 02:26    UnixLs 
+
+
+../a4/dir01:
+8634649604   -rw-r--r--     1    mwa109   domain users            0    Dec  6 2020 10:58    subtest 
+8885512915   lrwxrwxrwx     1    mwa109   domain users            7    Dec  6 2020 11:03    subsoftl -> subtest 
+
+
+/home/mwa109:
+4504840714012330380   drwxr-xr-x     2    mwa109   domain users            0    Oct 17 2020 20:14    sfuhome 
+8594188718   lrwxrwxrwx     1    mwa109   domain users           39    Sep 23 2020 23:21    Android -> /usr/shared/CMPT/scratch/mwa109/Android 
+8594188722   lrwxrwxrwx     1    mwa109   domain users           42    Sep 23 2020 23:21    'VirtualBox VMs' -> /usr/shared/CMPT/scratch/mwa109/VirtualBox 
+17733735876   drwxr-xr-x     2    mwa109   domain users           87    Sep 24 2020 09:21    cmpt300test 
+2161933518   drwxr-xr-x     2    mwa109   domain users         4096    Sep 30 2020 22:35    assignment_1 
+15086792747   drwxr-xr-x     3    mwa109   domain users           25    Oct 28 2020 04:39    300a2 
+17234474452   drwxr-xr-x     2    mwa109   domain users           10    Nov 20 2020 19:42    as3 
+6466812694   drwxr-xr-x     3    mwa109   domain users         4096    Dec  7 2020 02:26    a4 
+
+
+/home/mwa109/sfuhome:
+4504840718307297677   drwxr-xr-x     2    mwa109   domain users            0    Jun 26 2019 02:56    pub_html 
+2463382529957512158   -rwxr-xr-x     1    mwa109   domain users          282    Oct 17 2020 20:13    desktop.ini 
+2463389724027732959   drwxr-xr-x     2    mwa109   domain users            0    Oct 17 2020 20:14    '$RECYCLE.BIN' 
+
+
+/home/mwa109/sfuhome/pub_html:
+
+
+'/home/mwa109/sfuhome/$RECYCLE.BIN':
+2463389724027732960   -rwxr-xr-x     1    mwa109   domain users          129    Oct 17 2020 20:14    desktop.ini 
+
+
+/home/mwa109/cmpt300test:
+17733735880   -rw-r--r--     1    mwa109   domain users          473    Sep 24 2020 09:18    mySol.zip 
+17733832585   -rw-r--r--     1    mwa109   domain users          112    Sep 23 2020 22:28    helloWorld.c 
+17736158126   -rw-r--r--     1    mwa109   domain users           66    Sep 23 2020 22:26    makefile 
+17739155686   -rwxr-xr-x     1    mwa109   domain users         8352    Sep 24 2020 09:21    demo 
+
+
+/home/mwa109/assignment_1:
+2161933522   -rw-r--r--     1    mwa109   domain users         7936    Sep 30 2020 22:34    assignment_1.zip 
+2161940761   -rwxrwx---     1    mwa109   domain users        20681    Sep 30 2020 22:13    list.c 
+2161940762   -rwxrwx---     1    mwa109   domain users         5342    Sep 30 2020 21:48    list.h 
+2161940764   -rwxrwx---     1    mwa109   domain users           69    Sep 30 2020 20:29    makefile 
+2161940765   -rwxrwx---     1    mwa109   domain users        12427    Sep 30 2020 22:21    testAssignment_1.c 
+2166425475   -rwxr-xr-x     1    mwa109   domain users        22584    Sep 30 2020 22:35    main_test 
+
+
+/home/mwa109/300a2:
+13459107046   drwxr-xr-x     2    mwa109   domain users           10    Oct 28 2020 04:39    temp 
+
+
+/home/mwa109/300a2/temp:
+
+
+/home/mwa109/as3:
+
+
+/home/mwa109/a4:
+6467271707   -rw-r--r--     2    mwa109   domain users            0    Dec  4 2020 18:27    a4test.c 
+6467274954   lrwxrwxrwx     1    mwa109   domain users            8    Dec  4 2020 18:28    a4tests.c -> a4test.c 
+6467271707   -rw-r--r--     2    mwa109   domain users            0    Dec  4 2020 18:27    a4testh.c 
+8595550826   drwxr-xr-x     2    mwa109   domain users           47    Dec  6 2020 11:03    dir01 
+6466812696   -rw-r--r--     1    mwa109   domain users        12986    Dec  7 2020 02:26    a4.zip 
+6444088131   -rwxrwx---     1    mwa109   domain users         5514    Oct  5 2020 15:06    list.h 
+6445402989   -rwxrwx---     1    mwa109   domain users         8704    Oct  5 2020 15:03    list.o 
+6466860955   -rwxrwx---     1    mwa109   domain users          159    Dec  4 2020 00:58    makefile 
+6449515396   -rw-rw-r--     1    mwa109   domain users        31328    Dec  7 2020 02:22    UnixLs.c 
+6458230716   -rwxr-xr-x     1    mwa109   domain users        28616    Dec  7 2020 02:26    UnixLs 
+
+
+/home/mwa109/a4/dir01:
+8634649604   -rw-r--r--     1    mwa109   domain users            0    Dec  6 2020 10:58    subtest 
+8885512915   lrwxrwxrwx     1    mwa109   domain users            7    Dec  6 2020 11:03    subsoftl -> subtest 
+
+mwa109@csil-cpu1:~/a4$ 
+mwa109@csil-cpu1:~/a4$ 
+mwa109@csil-cpu1:~/a4$ 
+mwa109@csil-cpu1:~/a4$ 
+mwa109@csil-cpu1:~/a4$ 
+mwa109@csil-cpu1:~/a4$ 
+mwa109@csil-cpu1:~/a4$ 
+mwa109@csil-cpu1:~/a4$ 
+mwa109@csil-cpu1:~/a4$ 
+mwa109@csil-cpu1:~/a4$ 
+mwa109@csil-cpu1:~/a4$ 
+mwa109@csil-cpu1:~/a4$ 
+mwa109@csil-cpu1:~/a4$ 
+mwa109@csil-cpu1:~/a4$ 
+mwa109@csil-cpu1:~/a4$ 
+mwa109@csil-cpu1:~/a4$ 
+mwa109@csil-cpu1:~/a4$ 
+mwa109@csil-cpu1:~/a4$ 
+
+
+
+
+
+
+
+、
